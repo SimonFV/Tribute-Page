@@ -1,11 +1,9 @@
 #image {
+    display: block;
     max-width: 100%;
     height: auto;
-    justify-self: center;
-    align-self: center;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#img-div {
-    display: flex;
-    background-color: black;
-}
