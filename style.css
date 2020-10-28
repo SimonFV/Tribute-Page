@@ -1,3 +1,19 @@
+
+body {
+    background: #151520;
+}
+
+main {
+    text-align: center;
+    line-height: 1.6;
+}
+
+#img-div {
+    background-color: #101015;
+    max-width: 675px;
+    margin: 0 auto 0 auto;
+}
+
 #image {
     display: block;
     max-width: 100%;
@@ -7,3 +23,32 @@
     margin-right: auto;
 }
 
+.center {
+    text-align: center;
+    max-width: 630px;
+    margin: 0 auto 20px auto;
+}
+
+.lucida {
+    font-family: "Lucida Console";
+    color: rgba(200,165,20,1);
+}
+
+hr {
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+}
+
+#tribute-info {
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    text-align: left;
+}
+
+#tribute-link {
+    color: rgba(160,195,40,1);
+}
+
+#tribute-link:hover {
+    color: rgba(200,200,200,1);
+}
